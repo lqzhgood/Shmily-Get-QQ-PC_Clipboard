@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            width: 90vw;
+            min-height: 90vh;
+            border: 1px solid red;
+            margin: 0 auto;
+        }
+
+        #copy {
+            float: right;
+            position: relative;
+            z-index: 999999;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="copy">复制</button>
+    <div id="box" contentEditable></div>
+    <script>
+        document.getElementById("copy").addEventListener('click', $event => {
+            const boxElm = document.getElementById("box");
+            const html = boxElm.innerHTML;
+
+
+            downFile(html, 'html.txt');
+        });
+
+
+        function downFile(text, fileName = "file.txt") {
+            let filename = fileName;
+            let a = document.createElement('a');
+            let blob = new Blob([text]);
+            a.download = filename;
+            a.href = URL.createObjectURL(blob);
+            a.click();
+            URL.revokeObjectURL(blob);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+    "name": "RichTextCopy_QQ",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "getImgSrcFile": "node file.js",
+        "coverQQTempSys": "node ./tool/coverQQTempSys.js",
+        "getSysFace": "node ./tool/getSysFace.js",
+        "getDiyFace": "node ./tool/getDiyFace.js",
+        "mergerFace": "node ./tool/mergerFace.js",
+        "msg": "node msg.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "dayjs": "^1.9.4",
+        "file-type": "^16.5.2",
+        "fs-extra": "^9.0.1",
+        "jsdom": "^16.4.0",
+        "lodash": "^4.17.20",
+        "md5-file": "^5.0.0"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "input/*",
+            "dist/*"
+        ]
+    }
+}
