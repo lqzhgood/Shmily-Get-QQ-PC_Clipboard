@@ -112,6 +112,10 @@ MHT 只能按顺序导出, 如果数据库中间损坏, 就只能导出 _前半�
 
 `./dist/face` 下会得到所有 [表情]，并生成 `./face.json`，用于下一步生成 `${msg}`
 
+#### 3 修复
+
+通过 [Shmily-Get-QQ-PC_utils](https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils) 修复一些问题
+
 ## 消息
 
 ```
@@ -146,3 +150,11 @@ QQ 解析的链接，例如微信等链接会被微信Get到标题等信息直�
 
 自定义表情大部分丢失(QQTempSys)
 ```
+
+## 感谢
+
+http://lqzhgood.github.io/Shmily/guide/other/thanks.html
+
+## 捐赠
+
+点击链接 http://lqzhgood.github.io/Shmily/guide/other/donation.html 看世界上最可爱的动物
