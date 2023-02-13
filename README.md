@@ -32,7 +32,7 @@ MHT 只能按顺序导出, 如果数据库中间损坏, 就只能导出 _前半�
         leftName: 'b',
 
         // html 中涉及到的文件主路径 会按此主路径复制文件（含子文件夹）到 $dist-$file
-        // 如填写 'D:\\My bak\\QQ\\1111\\', 当 html 涉及到下列2个目录
+        // 如填写 'D:\\My bak\\QQ\\1111\\', 当 html 涉及到下列 2 个目录
         // D:\\My bak\\QQ\\1111\\Image\\A
         // D:\\My bak\\QQ\\1111\\B\\ZZZ
         // $dist-$file 下会有  【\\Image\\A】 【\\B\\ZZZ】 两个目录
@@ -131,6 +131,11 @@ ID 不精确
 
 并在 `./dist` 下生成 `qq_rich_copy_msg.json.json`
 
+> 通过 https://github.com/lqzhgood/Shmily-Get-QQ-PC_utils 修复一些问题
+
+
+
+
 ## ！丢失消息！ 以下类型 QQ 聊天窗不显示 就无法复制
 
 可查看 `can't get type` 中的示例
@@ -146,7 +151,7 @@ ID 不精确
 
 对方接收文件信息会显示 但是没有时间 需要自行补充
 
-QQ 解析的链接，例如微信等链接会被微信Get到标题等信息直接显示，而不是显示纯链接,所以无法复制
+QQ 解析的链接，例如微信等链接会被微信 Get 到标题等信息直接显示，而不是显示纯链接,所以无法复制
 
 自定义表情大部分丢失(QQTempSys)
 ```
