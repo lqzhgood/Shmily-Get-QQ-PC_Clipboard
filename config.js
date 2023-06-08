@@ -17,7 +17,7 @@ const config = {
 
     rootPath: "QQ-PC-COPY-12345678-20230101",
 
-    DIST_DIR: path.join(__dirname, "./dist/"),
+    // DIST_DIR: path.join(__dirname, "./dist/"),
 
     // imgWebPublicDir: "./data/qq-pc/img",
     // faceWebPublicDir: "./data/qq-pc/face",
