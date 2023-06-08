@@ -15,7 +15,7 @@ const config = {
         "D:\\My bak\\QQ\\110\\",
     ],
 
-    rootPath: "QQ-PC-CP-12345678-20230101",
+    rootPath: "QQ-PC-COPY-12345678-20230101",
 
     DIST_DIR: path.join(__dirname, "./dist/"),
 
